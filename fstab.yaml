@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p120465-e1171116.adobeaemcloud.com//bin/franklin.delivery/nikhil-gupta89/test-multi-content/main"
+    url: "https://author-p120465-e1171116.adobeaemcloud.com/bin/franklin.delivery/nikhil-gupta89/test-multi-content/main"
     type: "markup"
     suffix: ".html"
