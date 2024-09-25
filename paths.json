@@ -1,6 +1,6 @@
 {
   "mappings": [
-    "/content/test-multi-content/:/",
-    "/content/manojjain/:/manojjain"
+    "/content/test-multi-content/index:/",
+    "/content/manojjain/index:/manojjain"
   ]
 }
