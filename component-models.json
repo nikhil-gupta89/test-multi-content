@@ -16,6 +16,13 @@
     ]
   },
   {
-    "reference": "./component-models-eu.json"
+    "id": "fragment",
+    "fields": [
+      {
+        "component": "aem-content",
+        "name": "reference",
+        "label": "Reference"
+      }
+    ]
   }
 ]
