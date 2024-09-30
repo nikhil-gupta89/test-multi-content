@@ -2,6 +2,7 @@
   "mappings": [
     "/content/test-multi-content:/",
     "/content/manojjain/index:/manojjain",
-    "/content/TestSite/dev1test/index:/dev1test"
+    "/content/TestSite/dev1test/index:/dev1test",
+    "/content/TestSite/dev1test/index/:/dev1test/"
   ]
 }
