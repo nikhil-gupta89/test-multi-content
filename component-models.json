@@ -1,3 +1,5 @@
-{
-  "reference": "./component-models-eu.json"
-}
+[
+  {
+    "reference": "./component-models-eu.json"
+  }
+]
