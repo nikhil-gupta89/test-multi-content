@@ -62,7 +62,7 @@
   "groups": [
     {
       "title": "Global Content",
-      "id": "default",
+      "id": "global",
       "components": [
         {
           "title": "Hero",
@@ -85,7 +85,7 @@
   "groups": [
     {
       "title": "Americas Content",
-      "id": "default",
+      "id": "americas",
       "components": [
         {
           "title": "Hero",
@@ -108,7 +108,7 @@
   "groups": [
     {
       "title": "Europe Content",
-      "id": "default",
+      "id": "europe",
       "components": [
         {
           "title": "Hero",
@@ -131,7 +131,7 @@
   "groups": [
     {
       "title": "APAC Content",
-      "id": "default",
+      "id": "apac",
       "components": [
         {
           "title": "Hero",
