@@ -79,7 +79,7 @@
       ]
     },
     {
-      "title": "Blocks",
+      "title": "Global Blocks",
       "id": "blocks",
       "components": [
         {
@@ -175,6 +175,69 @@
          {
           "title": "Hero-EU",
           "id": "hero-EU",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Hero EU",
+                  "model": "hero EU"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": "Americas Blocks",
+      "id": "sections",
+      "components": [
+        {
+          "title": "Hero-US",
+          "id": "hero-US",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Hero US",
+                  "model": "hero US"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": "EU Blocks",
+      "id": "sections",
+      "components": [
+        {
+          "title": "Hero-EU",
+          "id": "hero-EU",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Hero EU",
+                  "model": "hero EU"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": "APAC Blocks",
+      "id": "sections",
+      "components": [
+        {
+          "title": "Hero-APAC",
+          "id": "hero-APAC",
           "plugins": {
             "xwalk": {
               "page": {

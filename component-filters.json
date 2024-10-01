@@ -12,24 +12,25 @@
       "image",
       "button",
       "title",
-      "hero",
-      "cards",
-      "columns",
-      "fragment"
+      "Global/hero",
+      "Global/cards",
+      "Global/columns",
+      "Global/fragment",
       "EU/hero-EU",
-      "US/hero-US"
+      "Americas/hero-US",
+      "APAC/hero-APAC"
     ]
   },
   {
     "id": "cards",
     "components": [
-      "card"
+      "Global/card"
     ]
   },
   {
     "id": "columns",
     "components": [
-      "column"
+      "Global/column"
     ]
   },
   {
