@@ -18,19 +18,20 @@
       "Global/fragment",
       "EU/hero-EU",
       "Americas/hero-US",
+      "Americas/cards-US",
       "APAC/hero-APAC"
     ]
   },
   {
     "id": "cards",
     "components": [
-      "Global/card"
+      "card"
     ]
   },
   {
     "id": "columns",
     "components": [
-      "Global/column"
+      "column"
     ]
   },
   {
