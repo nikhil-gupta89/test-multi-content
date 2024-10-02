@@ -168,8 +168,5 @@
         "valueType": "string"
       }
     ]
-  },
-  {
-    "...":"./_component-models-eu.json#/definitions"
   }
 ]
