@@ -1,20 +1,37 @@
 {
-  "definitions":[
-  {
-    "id": "image",
-    "fields": [
-      {
-        "component": "reference",
-        "name": "image1",
-        "label": "Image1",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "name": "imageAlt1",
-        "label": "Alt Text1"
-      }
-    ]
-  }
+  "model":[
+ {
+      "id": "hero-US",
+      "fields": [
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "image-us",
+          "label": "Image-us",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "imageAlt",
+          "label": "Alt",
+          "value": ""
+        },
+        {
+          "component": "richtext",
+          "name": "text",
+          "value": "",
+          "label": "Text",
+          "valueType": "string"
+        }
+        {
+          "component": "richtext",
+          "name": "text TEST",
+          "value": "",
+          "label": "Texttest",
+          "valueType": "string"
+        }
+      ]
+    }
 ]
 }
