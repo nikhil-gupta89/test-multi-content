@@ -245,8 +245,8 @@
       "id": "americasBlocks",
       "components": [
         {
-          "title": "Hero",
-          "id": "hero",
+          "title": "Hero-US",
+          "id": "hero-US",
           "plugins": {
             "xwalk": {
               "page": {
