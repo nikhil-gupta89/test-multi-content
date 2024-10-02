@@ -246,7 +246,7 @@
       "components": [
         {
           "title": "Hero-US",
-          "id": "Americas/hero-US",
+          "id": "hero-US",
           "plugins": {
             "xwalk": {
               "page": {
