@@ -35,6 +35,15 @@
           "...": "../blocks/*/_*.json#/definitions"
         }
       ]
+    },
+        {
+      "title": "Americas Blocks",
+      "id": "americasBlocks",
+      "components": [
+        {
+          "...": "../blocks/Americas/*/_*.json#/definitions"
+        }
+      ]
     }
   ]
 }
