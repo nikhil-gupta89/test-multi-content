@@ -18,7 +18,7 @@
   ],
   "models": [
     {
-      "id": "Americas/hero-US",
+      "id": "americasBlocks",
       "fields": [
         {
           "component": "reference",
