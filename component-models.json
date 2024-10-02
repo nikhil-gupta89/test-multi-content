@@ -170,6 +170,6 @@
     ]
   },
   {
-    "...":"./component-models-eu.json#/definitions"
+    "...":"component-models-eu.json#/definitions"
   }
 ]
