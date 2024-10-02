@@ -41,7 +41,7 @@
       "id": "americasBlocks",
       "components": [
         {
-          "...": "../blocks/*/*/_*.json#/definitions"
+          "...": "../blocks/Americas/*/_*.json#/definitions"
         }
       ]
     }
