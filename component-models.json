@@ -184,38 +184,5 @@
         "valueType": "string"
       }
     ]
-  },
-  {
-    "id": "americasBlocks",
-    "fields": [
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "image-us",
-        "label": "Image-us",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "imageAlt",
-        "label": "Alt",
-        "value": ""
-      },
-      {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
-      },
-      {
-        "component": "richtext",
-        "name": "text TEST",
-        "value": "",
-        "label": "Texttest",
-        "valueType": "string"
-      }
-    ]
   }
 ]
