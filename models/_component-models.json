@@ -20,4 +20,7 @@
    {
     "...": "../blocks/*/*/_*.json#/models"
   }
+  {
+    "...": "./_component-models-eu.json#/models"
+  }
 ]
