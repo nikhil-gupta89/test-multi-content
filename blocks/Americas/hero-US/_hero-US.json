@@ -18,7 +18,7 @@
   ],
   "models": [
     {
-      "id": "hero-US",
+      "id": "Americas/hero-US",
       "fields": [
         {
           "component": "reference",
