@@ -1,16 +1,32 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <script>
   alert("in head");
+        // Function to dynamically include JavaScript or CSS files
+        function includeFile(fileType, filePath) {
+            if (fileType === 'js') {
+                const script = document.createElement("script");
+                script.src = filePath;
+                document.head.appendChild(script);
+            } else if (fileType === 'css') {
+                const link = document.createElement("link");
+                link.rel = "stylesheet";
+                link.href = filePath;
+                document.head.appendChild(link);
+            }
+        }
+  
   if (window.location.href.includes("en_US")) {
     alert("US");
   } else {
     alert("Others");
-    includeFile('js', '/scripts/scripts.js')
-    includeFile('css', '/styles/styles.css')
+      includeFile('js', '/scripts/script.js'); 
+      includeFile('css', '/styles/styles.css');
   }
+
 </script>
 
 <meta name="glob-test" content="width=device-width, initial-scale=1"/>
 <meta name="nna-test" content="width=device-width, initial-scale=1"/>
 
 <script src="/scripts/aem.js" type="module"></script>
+
