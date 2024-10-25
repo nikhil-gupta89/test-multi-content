@@ -2,10 +2,13 @@
 <script>
   alert("in head");
         // Function to dynamically include JavaScript or CSS files
-        function includeFile(fileType, filePath) {
+      function includeFile(fileType, filePath, isModule = false) {
             if (fileType === 'js') {
                 const script = document.createElement("script");
                 script.src = filePath;
+                if (isModule) {
+                    script.type = "module"; // Specify module type if needed
+                }
                 document.head.appendChild(script);
             } else if (fileType === 'css') {
                 const link = document.createElement("link");
@@ -19,7 +22,7 @@
     alert("US");
   } else {
     alert("Others");
-      includeFile('js', '/scripts/scripts.js'); 
+      includeFile('js', '/scripts/scripts.js', true); 
       includeFile('css', '/styles/styles.css');
   }
 
